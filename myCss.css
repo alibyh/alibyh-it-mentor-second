@@ -214,20 +214,19 @@ h1 {
 
 @font-face {
   font-family: 'TT Lakes';
-  src: url('../fonts/TTLakesCondensed-Regular.woff2') format('woff2'),
-    url('../fonts/TTLakesCondensed-Regular.woff') format('woff');
+  src: url('./fonts/TTLakesCondensed-Regular.woff2') format('woff2'),
+    url('./fonts/TTLakesCondensed-Regular.woff') format('woff');
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'TT Lakes';
-  src: url('../fonts/TTLakesCondensed-Bold.woff2') format('woff2'),
-    url('../fonts/TTLakesCondensed-Bold.woff') format('woff');
+  src: url('./fonts/TTLakes-Bold.woff') format('woff'),
+    url('./fonts/TTLakesCondensed-Bold.woff') format('woff');
   font-weight: 700;
   font-style: bold;
 }
-
 @media (min-width: 768px) {
   body {
     width: 768px;
