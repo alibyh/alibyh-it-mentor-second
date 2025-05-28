@@ -19,7 +19,7 @@ body {
 .container {
   width: 100%;
   border: solid 0.1px #EAEAEA;
-  height: 670px;
+  height: 100%;
   background-color: #F8F8F8;
 
 }
