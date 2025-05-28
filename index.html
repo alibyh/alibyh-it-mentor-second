@@ -1,355 +1,96 @@
-html {
-  display: flex;
-  justify-content: center;
-  align-items: start;
-  background-color: #fff;
-  height: 100%;
-}
-
-body {
-  color: #fff;
-  background: #ffffff;
-  display: flex;
-  justify-content: center;
-  align-items: start;
-  margin: 0;
-  height: 100%;
-}
-
-.container {
-  border: solid 0.1px #EAEAEA;
-  height: 100%;
-  background-color: #F8F8F8;
-
-}
-
-.container__header_768 {
-  display: none;
-}
-
-.container__header_1120 {
-  display: none;
-}
-
-.lable768 {
-  display: none;
-}
-
-.lable1120 {
-  display: none;
-}
-
-.container__header_320 {
-  height: 88px;
-  background: #ffffff;
-  padding: 0px 0;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.container__header--line {
-  width: 2px;
-  height: 32px;
-  background-color: #EAEAEA;
-}
-
-img {
-  width: 40px;
-  height: 40px;
-  cursor: pointer;
-}
-
-.container__header--logo {
-  width: 96.54814910888672px;
-  height: 50.81px;
-}
-
-.container__header__leftIcons {
-  display: flex;
-  justify-content: space-around;
-  gap: 45px;
-  align-items: center;
-  height: 88px;
-  background: #F8F8F8;
-  padding: 0px 0;
-}
-
-.container__header__rightIcons {
-  display: flex;
-  justify-content: space-between;
-  gap: 20px;
-  align-items: center;
-  height: 88px;
-  background: #ffffff;
-  padding: 0px 0;
-  background-color: #F8F8F8;
-}
-
-.divs {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 10px;
-  font-family: 'TT Lakes', sans-serif;
-
-}
-
-h1 {
-  color: black;
-  margin: 0;
-  font-family: 'TT Lakes', sans-serif;
-  font-size: 26px;
-
-}
-
-.container__mainBody {
-  background-color: #F8F8F8;
-  padding-bottom: 20px;
-    overflow: scroll;
-
-  border-top: solid 1px #D9FFF5;
-}
-
-.container__header_1120__mainBodyHeader {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 20px;
-}
-
-.container__mainBody--h1Line {
-  width: 4px;
-  height: 40px;
-  background-color: #41F6D7;
-  display: flex;
-  justify-content: center;
-  align-content: start;
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
-  margin: 0;
-}
-
-
-.container__mainBodyHeader {
-  display: flex;
-  justify-content: start;
-  gap: 25px;
-  margin: 0;
-  margin-top: 20px;
-  margin-bottom: 20px;
-
-}
-
-.pannel {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  gap: 20px;
-  overflow: scroll;
-
-
-}
-
-.pannel-item {
-  color: #7E7E82;
-  display: contents;
-  justify-content: center;
-  align-items: center;
-  font-family: 'TT Lakes', sans-serif;
-  cursor: pointer;
-  font-size: 10px;
-}
-
-.container__mainBody--content {
-  display: flex;
-  justify-content: start;
-  align-items: center;
-  width: auto;
-  overflow: scroll;
-}
-
-.pannel-item:first-child {
-  background-color: white;
-  border: solid 1px #B8FFEC;
-  border-radius: 6px;
-}
-
-.pannel::-webkit-scrollbar {
-  width: 0;
-  background: transparent;
-}
-
-
-.info-block {
-  background-color: #F8F8F8;
-  width: 90%;
-}
-
-
-.info-block-item {
-  color: #27282e;
-  font-family: 'TT Lakes', sans-serif;
-  font-size: 19px;
-
-}
-
-.additional-info {
-  display: flex;
-  margin-bottom: 10px;
-  align-items: center;
-}
-
-.additional-info-label {
-  color: #1B1C21;
-  font-family: 'TT Lakes', sans-serif;
-  font-weight: 500;
-  cursor: pointer;
-
-}
-
-.mainImg {
-  width: 100%;
-  height: 230px;
-}
-
-@font-face {
-  font-family: 'TT Lakes';
-  src: url('./fonts/TTLakesCondensed-Regular.woff2') format('woff2'),
-    url('./fonts/TTLakesCondensed-Regular.woff') format('woff');
-  font-weight: 500;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'TT Lakes';
-  src: url('./fonts/TTLakes-Bold.woff') format('woff'),
-    url('./fonts/TTLakesCondensed-Bold.woff') format('woff');
-  font-weight: 700;
-  font-style: bold;
-}
-
-@media (min-width: 768px) {
-  html {
-    padding-left: 0.5%;
-    padding-right: 0.5%;
-  }
-
-  body {
-    width: 100%;
-    color: #fff;
-    background: #F8F8F8;
-    display: flex;
-    justify-content: center;
-    margin: 0;
-  }
-
-  .container__header_320 {
-    display: none;
-  }
-
-  .container__header_768 {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 88px;
-    background: #ffffff;
-    padding: 0px 0;
-    background-color: #FFF;
-  }
-
-  .container__header__leftIcons {
-    background-color: #fff;
-  }
-
-  .container__header__rightIcons {
-    background-color: #fff;
-  }
-
-  .info-block {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    background-color: #F8F8F8;
-  }
-
-  .info-block-item {
-    font-size: 17px;
-  }
-
-  .lable768 {
-    display: block;
-  }
-
-  .mainImg {
-    height: 100%;
-    border-radius: 5px;
-  }
-
-}
-
-@media (min-width: 1120px) {
-  body {
-    width: 100%;
-    height: 100%;
-    color: #fff;
-    background: #F8F8F8;
-    display: flex;
-    justify-content: center;
-  }
-
-  .container__header_320 {
-    display: none;
-  }
-
-  .container__header_768 {
-    display: none;
-  }
-
-  .container__header_1120 {
-    display: flex;
-    justify-content: space-between;
-    color: #1B1C21;
-    align-items: center;
-    height: 88px;
-    background: #ffffff;
-    padding: 0px 0;
-    background-color: #F8F8F8;
-  }
-
-  .container__header__leftIcons {
-    background-color: #F8F8F8;
-  }
-
-  .container__header__rightIcons {
-    background-color: #F8F8F8;
-  }
-
-  .info-block {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    gap: 15px;
-  }
-
-  .container__mainBodyHeader {
-    display: none;
-  }
-
-  .container__mainBody {
-    border-top: none;
-  }
-
-  .lable768 {
-    display: inline-block;
-  }
-
-  .lable1120 {
-    display: inline;
-  }
-
-  .mainImg {
-    border-radius: 5px;
-    height: 100%;
-  }
-}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="myCss.css">
+</head>
+
+<body>
+  <div class="container">
+
+
+    <div class="container__header_320">
+      <img class="container__header--menu" src="icons/burger.svg" />
+      <img class="container__header--logo" src="icons/Group.svg" />
+      <div class="container__header--line"></div>
+      <img class="container__header--menu" src="icons/repair.svg" />
+      <img class="container__header--search" src="icons/checkstatus.svg" />
+    </div>
+    <div class="container__header_768">
+      <div class="container__header__leftIcons">
+        <img class="container__header--menu" src="icons/burger.svg" />
+        <div class="container__header--line"></div>
+        <img class="container__header--logo" src="icons/Group.svg" />
+
+      </div>
+      <div></div>
+
+      <div class="container__header__rightIcons">
+        <img class="container__header--call" src="icons/call.svg" />
+        <img class="container__header--profile" src="icons/profile.svg">
+        <img class="container__header--chat" src="icons/chat.svg">
+        <div class="container__header--line"></div>
+        <img class="container__header--menu" src="icons/repair.svg" />
+        <img class="container__header--menu" src="icons/checkstatus.svg" />
+      </div>
+
+    </div>
+    <div class="container__header_1120">
+      <div class="container__header__leftIcons">
+        <div class="container__mainBody--h1Line"></div>
+        <h1>Услуги и сервисы</h1>
+      </div>
+      <div class="container__header__rightIcons">
+        <div class="divs"><label>Оставить заявку</label><img class="container__header--repair" src="icons/repair.svg" />
+        </div>
+        <div class="divs"><label>Статус ремонта</label><img class="container__header--search"
+            src="icons/checkstatus.svg" /></div>
+        <div></div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="container__mainBody">
+    <div class="container__mainBodyHeader">
+      <div class="container__mainBody--h1Line"></div>
+      <h1>Услуги и сервисы</h1>
+
+    </div>
+    <section class="container__mainBody--content">
+      <div class="pannel">
+        <label class="pannel-item">Ремонтируемые устройства</label>
+        <label class="pannel-item">Дополнительные услуги</label>
+        <label class="pannel-item">Цены на услуги</label>
+        <label class="pannel-item">Адреса сервисных центров</label>
+        <label class="pannel-item">Специальные цены</label>
+        <label class="pannel-item">Отзывы</label>
+
+      </div>
+    </section>
+  </div>
+  <div style="display: flex; justify-content: center; background-color: #F8F8F8;">
+    <div class="info-block">
+      <div class="talking">
+        <label class="info-block-item">Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у
+          нас вы можете отремонтировать
+          свой ноутбук Dell с официальной гарантией производителя.<br /><br />
+          <lable class="lable768"> Мы успешно
+            работаем с 1992 года и заслужили репутацию надежного партнера</lable>
+          <lable class="lable1120">, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к
+            нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.
+          </lable>
+        </label>
+        <div class="additional-info">
+          <img src="icons/expand.svg" />
+          <label class="additional-info-label"> Читать далее</label>
+        </div>
+      </div>
+
+      <img class="mainImg" src="icons/mainImg.svg" alt="">
+    </div>
+  </div>
+</body>
