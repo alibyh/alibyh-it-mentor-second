@@ -175,7 +175,9 @@ h1 {
   font-family: 'TT Lakes', sans-serif;
   font-size: 18px;
   line-height: 24px;
-  display: block;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .talking {
@@ -289,12 +291,6 @@ h1 {
 
   .lable768 {
     display: block;
-  }
-
-  .linebreak-768 {
-    display: block;
-    height: 10px;
-    /* You can adjust this to simulate an empty line */
   }
 
   .mainImg {
