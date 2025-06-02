@@ -1,5 +1,5 @@
 body{
-    margin:0;
+    margin: 0;
 }
 .menuContainer{
     width: 320px;
@@ -92,18 +92,19 @@ img{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    transform: translateX(-10%);
+    transform: translateX(-5%);
 }
 .email{
     text-align: center;
     font-family: 'TT Lakes', sans-serif;
-    transform: translateX(-25%);
+    transform: translateX(-20.5%);
 }
 .phone{
     text-align: center;
     font-family: 'TT Lakes', sans-serif;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 20px;
+    transform: translateX(0%);
 }
 .second-part{
     display: flex;
@@ -112,7 +113,7 @@ img{
     gap: 1px;
     width: 60%;
 }
-.languages{
+.language{
     font-family: 'TT Lakes', Arial, Helvetica, sans-serif;
     font-size: 15px;
     font-weight: 400;
@@ -120,7 +121,7 @@ img{
         margin: 0;
 
 }
-.languages:first-child{
+.second-part .language:first-child{
     color: #7E7E82;
 }
 @font-face {
