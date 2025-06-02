@@ -8,7 +8,8 @@ body{
     flex-direction: column;
     justify-content: space-evenly;
     border: 1px solid rgb(228, 228, 228);
-    box-shadow: 10px 10px 10px 10px rgba(137, 137, 137, 0.5);
+    box-shadow: 16px 0px 52px 0px #0E185033;
+
 }
 .smallContainer{
     width: 222px;
@@ -31,6 +32,11 @@ img{
     justify-content: space-around;
     align-items: start;
     gap: 50px;
+}
+.headerIcons:hover{
+    background-color: #F8F8F8;
+    border-radius: 5px;
+    cursor: pointer;
 }
 .leftIcons
 {
@@ -73,6 +79,7 @@ img{
     border-radius: 5px;
     border: #41F6D7 1px solid;
     padding: 9px;
+    cursor: pointer;
 }
 .menuContainer__body .items:first-child{
     display: flex;
@@ -100,10 +107,23 @@ img{
     justify-content: space-evenly;
     transform: translateX(-5%);
 }
+.contactIcons:hover{
+    background-color: #F8F8F8;
+    border-radius: 5px;
+    border: #41F6D7 1px solid;
+    cursor: pointer;
+    padding: 3px;
+    height: 32px;
+}
 .email{
     text-align: center;
     font-family: 'TT Lakes', sans-serif;
     transform: translateX(-20.5%);
+}
+.email:hover{
+    color: #7E7E82;
+    text-decoration: none;
+    cursor: pointer;
 }
 .phone{
     text-align: center;
@@ -116,6 +136,11 @@ img{
 .phone a {
     color: inherit;
     text-decoration: none;
+}
+.phone:hover{
+    color: #7E7E82;
+    text-decoration: none;
+    cursor: pointer;
 }
 .second-part{
     display: flex;
@@ -130,7 +155,15 @@ img{
     font-weight: 400;
     transform: translateX(5%);
         margin: 0;
+        padding: 10px;
 
+}
+.language:hover{
+    color: #7E7E82;
+    background-color: #F8F8F8;
+    border-radius: 5px;
+    border: #41F6D7 1px solid;
+    cursor: pointer;
 }
 .second-part .language:first-child{
     color: #7E7E82;
