@@ -33,7 +33,7 @@ img{
     align-items: start;
     gap: 50px;
 }
-.headerIcons:hover{
+.headerIcons:hover, .logo:hover{
     background-color: #F8F8F8;
     border-radius: 5px;
     cursor: pointer;
